@@ -8,7 +8,6 @@
 # pytest.mark.login
 # pytest -m "login"
 
-
 def test_less():
     number = 100
     assert  number < 100
