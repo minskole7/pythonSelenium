@@ -2,3 +2,10 @@ py.test
 py.test -v
 py.test -v "fileName"
 py.test -m "login"
+
+
+-----day 4---------
+fixtures and parallel execution
+to run testcases in parallel --- pytest-xdist
+pytest -n 3
+
