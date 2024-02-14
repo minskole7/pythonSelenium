@@ -8,8 +8,6 @@ def init_launch():
     driver.get("https://www.google.com")
 
     yield
-    print("tear down")
-    driver.quit()
 
 
 @pytest.mark.usefixtures('init_launch')
